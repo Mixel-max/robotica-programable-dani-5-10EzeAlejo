@@ -3,6 +3,8 @@ int ledPinv = 5;
 int ledPinb = 10;
 int buzzerPin = 8;
 int ledPina = 6;
+int test = 0;
+
 void setup() {
   pinMode(ledPinv, OUTPUT);
   pinMode(ledPinb, OUTPUT);
