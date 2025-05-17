@@ -40,7 +40,7 @@ void loop() {
     analogWrite(ledPina, 255 - i); 
     delay(10);
   }
-    for(int i = 0; i <= 128; i++){
+    for(int i = 128; i <= 0; i++){
     analogWrite(ledPinb, 255 - i); 
     delay(10);
   }
